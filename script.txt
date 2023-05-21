@@ -1,4 +1,5 @@
-var ss = SpreadsheetApp.openById(''); // Copy from your sheet
+const sheet_id = ''; // Spreadsheet ID
+var ss = SpreadsheetApp.openById(sheet_id); // Copy from your sheet
 var sheet = ss.getSheetByName('Sheet1');
 
 function doGet(e){
